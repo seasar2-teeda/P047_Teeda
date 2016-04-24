@@ -1,0 +1,7 @@
+DaoType=S2Dao
+DefaultResourcePath=/P047_Teeda/src/main/resources
+DefaultRootPackage=tutorial.chura
+DefaultSrcPath=/P047_Teeda/src/main/java
+ServletPath=P047_Teeda
+WebContentsRoot=src/main/webapp
+eclipse.preferences.version=1
