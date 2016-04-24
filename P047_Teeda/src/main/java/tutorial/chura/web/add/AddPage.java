@@ -1,10 +1,14 @@
 package tutorial.chura.web.add;
 
+import org.seasar.teeda.extension.annotation.validator.Required;
+
 public class AddPage {
 
-	public String arg1;
-	public String arg2;
-	public String result;
+	@Required
+	public Integer arg1;
+	@Required
+	public Integer arg2;
+	public Integer result;
 
 	public Class<?> doCalculate() {
 		result = arg1 + arg2;
